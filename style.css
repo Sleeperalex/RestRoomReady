@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto; /* Center horizontally */
+    max-width: 375px; /* Limit the maximum width to resemble an iPhone */
+    height: 100vh; /* Make the body fill the viewport vertically */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    overflow-x: hidden; /* Optional: Hide horizontal overflow */
+}
+
+header {
+    position: absolute; /* Makes the header float at the top */
+    top: 5px;
+    left: 0;
+    right: 0;
+    background-color: #5ba262;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    max-width: 365px;
+    margin-left: auto; /* Horizontally center the header */
+    margin-right: auto; /* Horizontally center the header */
+    font-size: 28px; /* Increase font size */
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 2px; /* Increase letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+    border-radius: 10px; /* Rounded corners for smoother edges */
+    animation: neonEffect 1.5s infinite alternate; /* Add neon effect animation */
+    z-index: 1000; /* Ensures the header is always on top */
+}
+
+@keyframes neonEffect {
+    from {
+        text-shadow: 0 0 10px #1ce730, 0 0 20px #1ce730, 0 0 30px #1ce730, 0 0 40px #1ce730, 0 0 70px #1ce730, 0 0 80px #1ce730, 0 0 100px #1ce730, 0 0 150px #1ce730;
+    }
+    to {
+        text-shadow: 0 0 5px #1ce730, 0 0 10px #1ce730, 0 0 15px #1ce730, 0 0 20px #1ce730, 0 0 35px #1ce730, 0 0 40px #1ce730, 0 0 50px #1ce730, 0 0 75px #1ce730;
+    }
+}
+
+#map-canvas {
+    width: 375px; /* iPhone width */
+    height: 700px; /* iPhone height */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds some shadow for depth, similar to a phone */
+    margin-top: 60px;
+}
