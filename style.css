@@ -5,7 +5,7 @@ body {
     background-color: #f0f0f0; /* Optional: Add a background color */
     overflow-x: hidden; /* Optional: Hide horizontal overflow */
     border-radius: 50px; /* Optional: Add rounded corners */
-    border: 7px solid #000;
+    border: 12px solid #000;
 
 }
 
@@ -23,12 +23,12 @@ body {
 
 header {
     position: absolute; /* Makes the header float at the top */
-    top: 20px;
+    top: 50px;
     left: 0;
     right: 0;
     background-color: #5ba262;
     color: #ffffff;
-    padding: 10px 0;
+    padding: 3px 0;
     text-align: center;
     max-width: 350px;
     margin-left: auto; /* Horizontally center the header */
@@ -53,25 +53,24 @@ header {
 #map-canvas {
     width: 375px; /* iPhone width */
     height: 700px; /* iPhone height */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds some shadow for depth, similar to a phone */
     margin-top: 0px; /* Add space above the map */
-    border-radius: 50px; /* Rounded corners for smoother edges */
+    border-radius: 40px; /* Rounded corners for smoother edges */
 }
 
 #map-canvas img {
     width: 100%; /* Ensure the image takes up the entire width of the div */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50px; /* Rounded corners for smoother edges */
+    border-radius: 40px; /* Rounded corners for smoother edges */
 }
 
 .green-box-left {
     position: absolute;
-    top: 656px; /* Adjust top position to be just above the white bar */
+    top: 662px; /* Adjust top position to be just above the white bar */
     left: 37.8%;
     height: 50px; /* Adjust height as needed */
     width: 100px; /* Adjust width as needed */
     background-color: #5ba262; /* Green color */
-    border-bottom-left-radius: 44px; /* Rounded corners for smoother edges */
+    border-bottom-left-radius: 38.5px; /* Rounded corners for smoother edges */
     border-top-right-radius: 50px; /* Rounded corners for smoother edges */
     z-index: 997; /* Ensure the green box is behind the white bar */
 }
