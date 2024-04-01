@@ -11,18 +11,23 @@
         <img src="image.jpg"></img>
     </div>
     <script>
-        /*
-        fetch('apikey.txt')
-            .then(response => response.text())
-            .then(apiKey => {
-                const script = document.createElement('script');
-                script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey.trim()}&callback=initMap`;
-                script.async = true;
-                script.defer = true;
-                document.head.appendChild(script);
+        fetch('config.json')
+            .then(response => response.json())
+            .then(config => {
+                if (config.api === true) {
+                    fetch('apikey.txt')
+                        .then(response => response.text())
+                        .then(apiKey => {
+                            const script = document.createElement('script');
+                            script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey.trim()}&callback=initMap`;
+                            script.async = true;
+                            script.defer = true;
+                            document.head.appendChild(script);
+                        })
+                        .catch(error => console.error('Error loading the API key:', error));
+                }
             })
-            .catch(error => console.error('Error loading the API key:', error));
-            */
+            .catch(error => console.error('Error loading the config:', error));
     </script>
     <script src="main.js"></script>
     <div class="green-box-left"></div>
