@@ -34,7 +34,7 @@ header {
     margin-left: auto; /* Horizontally center the header */
     margin-right: auto; /* Horizontally center the header */
     font-size: 25px; /* Increase font size */
-    font-family: 'Fantasy', sans-serif; /* Add fantasy font */
+    font-family: 'Varela Round'; /* Add fantasy font */
     letter-spacing: 2px; /* Increase letter spacing */
     border-radius: 50px; /* Rounded corners for smoother edges */
     animation: neonEffect 1.5s infinite alternate; /* Add neon effect animation */
@@ -43,7 +43,7 @@ header {
 
 @keyframes neonEffect {
     from {
-        text-shadow: 0 0 10px #1ce730, 0 0 20px #1ce730, 0 0 30px #1ce730, 0 0 40px #1ce730, 0 0 70px #1ce730, 0 0 80px #1ce730, 0 0 100px #1ce730, 0 0 150px #1ce730;
+        text-shadow: 0 0 10px #000000, 0 0 20px #1ce730, 0 0 30px #1ce730, 0 0 40px #1ce730, 0 0 70px #1ce730, 0 0 80px #1ce730, 0 0 100px #1ce730, 0 0 150px #1ce730;
     }
     to {
         text-shadow: 0 0 5px #1ce730, 0 0 10px #1ce730, 0 0 15px #1ce730, 0 0 20px #1ce730, 0 0 35px #1ce730, 0 0 40px #1ce730, 0 0 50px #1ce730, 0 0 75px #1ce730;
