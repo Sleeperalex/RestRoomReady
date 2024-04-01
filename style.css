@@ -1,31 +1,44 @@
 body {
     margin: 0 auto; /* Center horizontally */
     max-width: 375px; /* Limit the maximum width to resemble an iPhone */
-    height: 100vh; /* Make the body fill the viewport vertically */
+    max-height: 700px;
     background-color: #f0f0f0; /* Optional: Add a background color */
     overflow-x: hidden; /* Optional: Hide horizontal overflow */
+    border-radius: 50px; /* Optional: Add rounded corners */
+    border: 7px solid #000;
+
+}
+
+.notch {
+    position: absolute; /* Makes the header float at the top */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    height: 28px; /* Adjust height as needed */
+    width: 150px; /* Covers the entire width of the screen */
+    border-bottom-left-radius: 20px; /* Optional: Add rounded corners */
+    border-bottom-right-radius: 20px; /* Optional: Add rounded corners */
+    z-index: 1000;
 }
 
 header {
     position: absolute; /* Makes the header float at the top */
-    top: 5px;
+    top: 20px;
     left: 0;
     right: 0;
     background-color: #5ba262;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    max-width: 365px;
+    max-width: 350px;
     margin-left: auto; /* Horizontally center the header */
     margin-right: auto; /* Horizontally center the header */
-    font-size: 28px; /* Increase font size */
-    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
-    text-transform: uppercase; /* Transform text to uppercase */
+    font-size: 25px; /* Increase font size */
+    font-family: 'Fantasy', sans-serif; /* Add fantasy font */
     letter-spacing: 2px; /* Increase letter spacing */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
-    border-radius: 10px; /* Rounded corners for smoother edges */
+    border-radius: 50px; /* Rounded corners for smoother edges */
     animation: neonEffect 1.5s infinite alternate; /* Add neon effect animation */
-    z-index: 1000; /* Ensures the header is always on top */
+    z-index: 999; /* Ensures the header is always on top */
 }
 
 @keyframes neonEffect {
@@ -41,5 +54,37 @@ header {
     width: 375px; /* iPhone width */
     height: 700px; /* iPhone height */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds some shadow for depth, similar to a phone */
-    margin-top: 60px;
+    margin-top: 0px; /* Add space above the map */
+    border-radius: 50px; /* Rounded corners for smoother edges */
+}
+
+#map-canvas img {
+    width: 100%; /* Ensure the image takes up the entire width of the div */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50px; /* Rounded corners for smoother edges */
+}
+
+.green-box-left {
+    position: absolute;
+    top: 656px; /* Adjust top position to be just above the white bar */
+    left: 37.8%;
+    height: 50px; /* Adjust height as needed */
+    width: 100px; /* Adjust width as needed */
+    background-color: #5ba262; /* Green color */
+    border-bottom-left-radius: 44px; /* Rounded corners for smoother edges */
+    border-top-right-radius: 50px; /* Rounded corners for smoother edges */
+    z-index: 997; /* Ensure the green box is behind the white bar */
+}
+
+
+.white-bar {
+    position: absolute; /* Makes the header float at the top */
+    top: 690px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10px; /* Adjust height as needed */
+    width: 150px; /* Covers the entire width of the screen */
+    border-radius: 50px; /* Rounded corners for smoother edges */
+    background-color: #ffffff; /* White color */
+    z-index: 998;
 }
