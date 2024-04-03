@@ -55,6 +55,7 @@ header {
     height: 700px; /* iPhone height */
     margin-top: 0px; /* Add space above the map */
     border-radius: 40px; /* Rounded corners for smoother edges */
+    z-index: 100; /* Ensure the map is behind everything else */
 }
 
 #map-canvas img {
@@ -66,7 +67,7 @@ header {
 .green-box-left {
     position: absolute;
     top: 662px; /* Adjust top position to be just above the white bar */
-    left: 37.8%;
+    left: calc(50% - 187.5px);
     height: 50px; /* Adjust height as needed */
     width: 100px; /* Adjust width as needed */
     background-color: #5ba262; /* Green color */
@@ -78,7 +79,7 @@ header {
 
 .white-bar {
     position: absolute; /* Makes the header float at the top */
-    top: 690px;
+    top: 692px;
     left: 50%;
     transform: translateX(-50%);
     height: 10px; /* Adjust height as needed */
@@ -86,4 +87,28 @@ header {
     border-radius: 50px; /* Rounded corners for smoother edges */
     background-color: #ffffff; /* White color */
     z-index: 998;
+}
+
+.green-box-bottom{
+    position: absolute;
+    top: 700px; /* Adjust top position to be just above the white bar */
+    left: calc(50% + 20px);
+    transform: translateX(-50%);
+    height: 12px; /* Adjust height as needed */
+    width: 250px; /* Adjust width as needed */
+    background-color: #5ba262; /* Green color */
+    z-index: 996; /* Ensure the green box is behind the white bar */
+}
+
+
+.green-box-right{
+    position: absolute;
+    top: 612px; /* Adjust top position to be just above the white bar */
+    left: calc(50% + 137.5px);
+    height: 100px; /* Adjust height as needed */
+    width: 50px; /* Adjust width as needed */
+    background-color: #5ba262; /* Green color */
+    border-bottom-right-radius: 38.5px; /* Rounded corners for smoother edges */
+    border-top-left-radius: 50px; /* Rounded corners for smoother edges */
+    z-index: 994; /* Ensure the green box is behind the white bar */
 }

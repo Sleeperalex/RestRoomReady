@@ -1,7 +1,11 @@
 function initMap() {
     var options = {
-        center: { lat: 48.8589384 ,lng: 2.2646341 },
-        zoom: 15,
+        center: { lat: 48.8589384 ,lng: 2.366341 },
+        zoom: 12,
+        disableDefaultUI: true,
+        mapTypeControl: false,
+        fullscreenControl: false,
+        streetViewControl: false,
         styles:
         [
             {
