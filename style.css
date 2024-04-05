@@ -67,7 +67,7 @@ header {
 }
 
 
-.white-bar {
+.bottom-bar {
     position: absolute; /* Makes the header float at the top */
     top: 692px;
     left: 50%;
@@ -75,7 +75,7 @@ header {
     height: 10px; /* Adjust height as needed */
     width: 150px; /* Covers the entire width of the screen */
     border-radius: 50px; /* Rounded corners for smoother edges */
-    background-color: #ffffff; /* White color */
+    background-color: #000000; /* White color */
     z-index: 998;
 }
 
