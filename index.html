@@ -10,6 +10,7 @@
     <div id="map-canvas">
         <img src="image.jpg"></img>
     </div>
+
     <script>
         fetch('config.json')
             .then(response => response.json())
@@ -29,6 +30,7 @@
             })
             .catch(error => console.error('Error loading the config:', error));
     </script>
+    
     <script src="main.js"></script>
     <div class="green-box-left"></div>
     <div class="bottom-bar"></div>
