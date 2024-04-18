@@ -39,5 +39,6 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 ```bash
   python launch.py
   ```
-un server python http en local sur votre machine sera créé et vous serez diriger vers une page chrome automatiquement.
+un server python http en local sur votre machine sera créé et vous serez diriger vers une page chrome automatiquement.  
+
 2. Lorsque vous avez finit, fermer la page chrome (le server s'arretera automatiquement).
