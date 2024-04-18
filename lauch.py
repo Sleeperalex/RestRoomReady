@@ -37,7 +37,7 @@ def open_page():
 def main():
 
     try :
-        print("Server started")
+        print("Server started...")
         b=True
         server_process = multiprocessing.Process(target=start_server)
         server_process.start()
@@ -48,13 +48,13 @@ def main():
                 server_process.terminate()
         server_process.join()
         d.quit()
+        print("Server stopped")
 
     except KeyboardInterrupt:
         print("Server stopped")
 
-    except Exception as e:
+    except Exception:
         print("Server error")
-        print(e)
 
 
 if __name__ == "__main__":

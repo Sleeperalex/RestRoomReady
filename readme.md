@@ -25,17 +25,19 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 ```bash
   git clone https://github.com/Sleeperalex/RestRoomReady.git
   ```
+  ```bash
+  pip install selenium
+  ```
 
 ### Si vous avez une clé API
 
 1. Si vous disposez d'une clé API, créez un fichier `apikey.txt` dans le dossier du projet et mettez votre clé API.
 2. Modifiez le fichier `config.json` et mettez `true` pour le paramètre "api".
-3. éxécuter le fichier launch.py
+
+### Fonctionnement
+1. éxécuter le fichier launch.py
 ```bash
   python launch.py
   ```
-4. Lorsque vous avez finit, fermer la page chrome. (le server s'arretera automatiquement)
-
-### Si vous n'avez pas de clé API
-
-Aucune installation n'est nécessaire pour utiliser Rest Room Ready. Il suffit d'ouvrir le fichier HTML fourni (`index.html`) dans votre navigateur web préféré.
+un server python http en local sur votre machine sera créé et vous serez diriger vers une page chrome automatiquement.
+2. Lorsque vous avez finit, fermer la page chrome (le server s'arretera automatiquement).
