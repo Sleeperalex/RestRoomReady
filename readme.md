@@ -17,6 +17,7 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 - HTML
 - CSS
 - JavaScript
+- Python
 - API JavaScript de Google Maps
 
 ## Installation
