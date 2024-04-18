@@ -29,11 +29,11 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 
 1. Si vous disposez d'une clé API, créez un fichier `apikey.txt` dans le dossier du projet et mettez votre clé API.
 2. Modifiez le fichier `config.json` et mettez `true` pour le paramètre "api".
-3. créer un server python http en local sur votre machine
+3. éxécuter le fichier launch.py
 ```bash
-  python -m http.server
+  python launch.py
   ```
-4. Allez sur http://localhost:8000/ dans un navigateur
+4. Lorsque vous avez finit, fermer la page chrome. (le server s'arretera automatiquement)
 
 ### Si vous n'avez pas de clé API
 
