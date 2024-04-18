@@ -25,7 +25,7 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 ```bash
   git clone https://github.com/Sleeperalex/RestRoomReady.git
   ```
-  ```bash
+```bash
   pip install selenium
   ```
 
