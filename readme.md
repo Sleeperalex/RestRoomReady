@@ -36,6 +36,7 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 
 ### Fonctionnement
 1. éxécuter le fichier launch.py
+
 ```bash
   python launch.py
   ```
