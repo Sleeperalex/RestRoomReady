@@ -54,8 +54,8 @@ def main():
     except KeyboardInterrupt:
         print("Server stopped")
 
-    except Exception as e:
-        print("Server error",e)
+    except Exception:
+        print("Server error")
 
 
 if __name__ == "__main__":
