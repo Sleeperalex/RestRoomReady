@@ -2,6 +2,7 @@ import subprocess
 import os
 from selenium import webdriver
 import multiprocessing
+import time
 
 
 
@@ -53,8 +54,8 @@ def main():
     except KeyboardInterrupt:
         print("Server stopped")
 
-    except Exception:
-        print("Server error")
+    except Exception as e:
+        print("Server error",e)
 
 
 if __name__ == "__main__":
