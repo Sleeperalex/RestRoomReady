@@ -35,11 +35,16 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 2. Modifiez le fichier `config.json` et mettez `true` pour le paramètre "api".
 
 ### Fonctionnement
-1. éxécuter le fichier launch.py
+1. Allez dans le dossier du projet.
 
 ```bash
-  python launch.py
+  cd .\RestRoomReady\
   ```
-un server python http en local sur votre machine sera créé et vous serez diriger vers une page chrome automatiquement.  
+2. créer un server http en local sur votre machine
 
-2. Lorsque vous avez finit, fermer la page chrome (le server s'arretera automatiquement).
+```bash
+  python -m http.server
+  ```
+ouvrez une page web et aller sur http://localhost:8000
+
+3. faite un Ctrl+C dans votre terminal pour arreter le serveur.
