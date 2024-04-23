@@ -25,10 +25,6 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 ```bash
   git clone https://github.com/Sleeperalex/RestRoomReady.git
   ```
-```bash
-  pip install selenium
-  ```
-
 ### Si vous avez une clé API
 
 1. Si vous disposez d'une clé API, créez un fichier `apikey.txt` dans le dossier du projet et mettez votre clé API.
