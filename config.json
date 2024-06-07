@@ -1,3 +1,4 @@
 {
-    "api": false
+    "api_map": true,
+    "api_places":false
 }

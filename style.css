@@ -100,3 +100,48 @@ header {
     border-top-left-radius: 50px; /* Rounded corners for smoother edges */
     z-index: 994; /* Ensure the green box is behind the white bar */
 }
+
+button {
+    position:absolute;
+    top: 400px;
+    left: calc(50% - 170px); /* Ajustez cette valeur pour centrer la flèche correctement */
+    height: 30px;
+    width: 40px; /* Assurez-vous que cette largeur est juste suffisante pour la flèche */
+    padding: 10px 10px; /* Réduisez le padding pour qu'il corresponde à la taille réduite */
+    font-size: 16px;
+    color: rgb(241, 228, 228);
+    background-color: #4CAF50; /* Vert */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 0.5s ease, background-color 0.5s ease; /* Transition pour l'élargissement et la couleur */
+    z-index: 999;
+}
+
+button:hover {
+    position: absolute;
+    width: 240px; /* Taille élargie pour accommoder le texte au survol */
+    height: 50px;
+    background-color: #45a049;
+    z-index: 999;
+}
+
+.button-text {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.5s ease 0.5s; /* Délai pour l'apparition du texte */
+}
+
+.button-icon {
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Transition pour la disparition de la flèche */
+}
+
+button:hover .button-text {
+    opacity: 1;
+}
+
+button:hover .button-icon {
+    opacity: 0; /* Flèche disparaît au survol */
+}

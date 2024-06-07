@@ -9,14 +9,18 @@
     <div class="black-box-top"></div>
     <header>Rest Room Ready</header>
     <div id="map-canvas">
-        <img src="image.jpg"></img>
     </div>
+    <button id="showToilets">
+        <span class="button-icon">></span>
+        <span class="button-text">Afficher les toilettes à proximité</span>
+    </button>
+
 
     <script>
         fetch('config.json')
             .then(response => response.json())
             .then(config => {
-                if (config.api === true) {
+                if (config.api_map === true) {
                     fetch('apikey.txt')
                         .then(response => response.text())
                         .then(apiKey => {
@@ -31,12 +35,12 @@
             })
             .catch(error => console.error('Error loading the config:', error));
     </script>
-    
-    <script src="main.js"></script>
+
     <div class="green-box-left"></div>
     <div class="bottom-bar"></div>
     <div class="green-box-bottom"></div>
     <div class="green-box-right"></div>
+    <script src="main.js"></script>
 </body>
 </html>
 

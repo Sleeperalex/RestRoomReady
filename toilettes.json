@@ -1,0 +1,994 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AUGGfZmmaFzGEsZwPBKOWHqXn4A381MZm_P-4PoBMNS7exkg4bUdESahENJYw11juc4OFYiC6-oz-LKUPusIsLDmyeArSBbIcW_Cd8h7ou86AcpGhjNyXKk5FZJ8UEsXRJSzIVlfEy_t2sb57qW1fu_XVu4P0lPe-DRlU5p23pVHnrLU4fSvYns6-ev2fAq1TGtpif7r62xxfb1JxtbXVpMb85OGE9B7giPMEdJu6PFBmsyXfRz5b5thhMWSgp1BmGrqKOsszEO50EEWLhRtfgSPbTBdncgYwRL1HF4yzcpAt47qa6J_dxaXlTLohY19oiV1B8HMqPFBh4vccs5wgIbXUSbx9Bvu-TIQJpoZQ-1FMfCQg9mEQ6iXKCqPZ1n1W40Jv5sF0zEKhZq5BlR_Hai0ijeiFNLIuWtLRUmmPU4lMc7a75BWgLs1HI8",
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 48.8575475,
+                    "lng": 2.3513765
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.90214747577797,
+                        "lng": 2.469850925555473
+                    },
+                    "southwest": {
+                        "lat": 48.81556220872687,
+                        "lng": 2.224219054341255
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Paris",
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109242808191765750638\">Gerlof Hoogeveen</a>"
+                    ],
+                    "photo_reference": "AUGGfZlN7BTpq7LxLSAwCWOnqbTwZgwjsIARTr4mcbnOUWaxYIYg67RnKZJdzpV6CmtruO4mbwUegZPwQoKMv4jnex413GlGWTcBhF4m62_os3_OAcTlfoc5TXlKS7Qm8HjvJLgcdwIg1L31RgNs_RKUsJua_-nRPGrosHaYX9_65y9eWvwb",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+            "reference": "ChIJD7fiBh9u5kcRYJSMaMOCCwQ",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8581126,
+                    "lng": 2.3529277
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8594107802915,
+                        "lng": 2.354335680291502
+                    },
+                    "southwest": {
+                        "lat": 48.8567128197085,
+                        "lng": 2.351637719708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "H\u00f4tel Duo",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 600,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107554201425443337224\">H\u00f4tel Duo</a>"
+                    ],
+                    "photo_reference": "AUGGfZkRo2lEz7qnogrdz8xPYxKLaw3CS2kDMSkYyS9mZn1H_UEs6TGkxsARe1mCSOgXdTlvl7cRKSX7u_yDJKX2ekDL7JbLAu4B1z70jUFQVAhUywsyzQLiDz2qGEdt2bLWjnapx_T0LAcMJsgB4BzwSVJwn8eTotaZsJOrRVeJ-z5zmkL9",
+                    "width": 900
+                }
+            ],
+            "place_id": "ChIJWU9CqB1u5kcR5P1F2SMoJmc",
+            "plus_code": {
+                "compound_code": "V953+65 Paris, France",
+                "global_code": "8FW4V953+65"
+            },
+            "rating": 4.3,
+            "reference": "ChIJWU9CqB1u5kcR5P1F2SMoJmc",
+            "scope": "GOOGLE",
+            "types": [
+                "spa",
+                "night_club",
+                "gym",
+                "lodging",
+                "health",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 454,
+            "vicinity": "11 Rue du Temple, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.85829,
+                    "lng": 2.346381099999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8595662802915,
+                        "lng": 2.347673530291502
+                    },
+                    "southwest": {
+                        "lat": 48.8568683197085,
+                        "lng": 2.344975569708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Britannique Hotel - Paris Centre",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1426,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108984000175492464929\">Britannique Hotel - Paris Centre</a>"
+                    ],
+                    "photo_reference": "AUGGfZkfXEMoDDjBGQd4Z1ZgPPC9t3wWq8DW_QmA2nqZoHFShqsiOz2cmeDZg23bDMgdyLGFzVn5Ha-foZmF3DIkMS72EV8l0DOG8qBz2IW3samwxeaqKT3K5c4RKWevmty8y0FbS16Qa8WV8W0HLnFJGnJYwZkV_9OSc3nM_-2AVxdDN6Yp",
+                    "width": 1476
+                }
+            ],
+            "place_id": "ChIJ-4Siox9u5kcRm9vM6DcMXyU",
+            "plus_code": {
+                "compound_code": "V85W+8H Paris, France",
+                "global_code": "8FW4V85W+8H"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ-4Siox9u5kcRm9vM6DcMXyU",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1028,
+            "vicinity": "20 Avenue Victoria, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8607013,
+                    "lng": 2.3469937
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8617860302915,
+                        "lng": 2.347927730291502
+                    },
+                    "southwest": {
+                        "lat": 48.8590880697085,
+                        "lng": 2.345229769708499
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Citadines Les Halles Paris",
+            "photos": [
+                {
+                    "height": 849,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102565262508115704337\">Citadines Apart&#39;hotel Les Halles Paris</a>"
+                    ],
+                    "photo_reference": "AUGGfZkKINc8sYnRRrBloVGTgkH1BUGwOosXOVoYS-OlPvA-kJGm1ZEDefosLH9JeIsUtpwCPmwFiRdNprEsi21aqolCgDK8HQvxazxWykrLYe1j6MmLoeS-_ibzXv24z6zQHtGuYYN_RcXuDCOIzqcfdrqYUzli9MB2W5Pr1a2j5mXAjCPj",
+                    "width": 1280
+                }
+            ],
+            "place_id": "ChIJQ_QDrxhu5kcRJzNxLLEOSfU",
+            "plus_code": {
+                "compound_code": "V86W+7Q Paris, France",
+                "global_code": "8FW4V86W+7Q"
+            },
+            "rating": 4,
+            "reference": "ChIJQ_QDrxhu5kcRJzNxLLEOSfU",
+            "scope": "GOOGLE",
+            "types": [
+                "city_hall",
+                "local_government_office",
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1045,
+            "vicinity": "4 Rue des Innocents, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8607658,
+                    "lng": 2.3465318
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8620537802915,
+                        "lng": 2.347691080291502
+                    },
+                    "southwest": {
+                        "lat": 48.8593558197085,
+                        "lng": 2.344993119708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Novotel Paris Les Halles",
+            "photos": [
+                {
+                    "height": 4160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111815616573299411056\">Novotel Paris Les Halles</a>"
+                    ],
+                    "photo_reference": "AUGGfZksnW9ZzWF-QzzQTEVF97qMkCxHAAONtzWVGm7l8nVu4rjPlgs6vuBryNEF_WZ0nCsUIicAdoLC9I7Ean56Rh53HJWH7U3ijmszeLcRfNTPZh4LzWGx-YSm1GCYCqPgTw3jai88ExFBLm6dnI-3DmsYw5CU26aAnQp_1hf9mne39n5g",
+                    "width": 6240
+                }
+            ],
+            "place_id": "ChIJGW2pNx9u5kcRI3oyL8NG5BQ",
+            "plus_code": {
+                "compound_code": "V86W+8J Paris, France",
+                "global_code": "8FW4V86W+8J"
+            },
+            "rating": 4.4,
+            "reference": "ChIJGW2pNx9u5kcRI3oyL8NG5BQ",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3602,
+            "vicinity": "8 Place Marguerite de Navarre, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.860352,
+                    "lng": 2.3440948
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.86168068029151,
+                        "lng": 2.345568580291502
+                    },
+                    "southwest": {
+                        "lat": 48.85898271970851,
+                        "lng": 2.342870619708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "H\u00f4tel Ducs de Bourgogne",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1390,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101411638353598558320\">Best Western Premier Ducs de Bourgogne</a>"
+                    ],
+                    "photo_reference": "AUGGfZlo6Lcl2IG9VhwOYRA8cKsTbHI0e5IqzO5Sujc4wE5u8zNXjvNWotMWlwdOOG3oeKHF0iOAv_drvMB6w1Ia_NBI4jd3f5T1Bs4Db8DnBVzd6c7f8rwSeajsmsUdOZbnx3MT4cvE-gJmWvLseK-iszhLiQeQDk0kdNdtWOEuhGh4DEe-",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJifTG5yFu5kcRdnisbwxnAx4",
+            "plus_code": {
+                "compound_code": "V86V+4J Paris, France",
+                "global_code": "8FW4V86V+4J"
+            },
+            "rating": 4.6,
+            "reference": "ChIJifTG5yFu5kcRdnisbwxnAx4",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 458,
+            "vicinity": "19 Rue du Pont Neuf, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8555149,
+                    "lng": 2.3408589
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8569105302915,
+                        "lng": 2.342311930291502
+                    },
+                    "southwest": {
+                        "lat": 48.8542125697085,
+                        "lng": 2.339613969708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Citadines Saint-Germain-des-Pr\u00e9s Paris (Apart hotel Paris)",
+            "photos": [
+                {
+                    "height": 4480,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113188832595116816387\">Citadines Apart&#39;hotel Saint-Germain-des-Pr\u00e9s Paris</a>"
+                    ],
+                    "photo_reference": "AUGGfZlD4tLTe3tKsgggWZ1_P91bmtMGVK-YxJ-mjNZE2BSpsoaSOKJm3-skCJNP2GgStcRfsQKqfP-ajyhXbvlhHMFdwnGhy6z8-z-5o7z-MIQWGBqZ_XaQZ-tqe2uf7Su9hG2ztizEP_exkuncRFxUaCb2e6ajyb13ELISM8Sd3LT1NJjM",
+                    "width": 6720
+                }
+            ],
+            "place_id": "ChIJo5pYcN9x5kcRERXdocMgqmE",
+            "plus_code": {
+                "compound_code": "V84R+68 Paris, France",
+                "global_code": "8FW4V84R+68"
+            },
+            "rating": 4.2,
+            "reference": "ChIJo5pYcN9x5kcRERXdocMgqmE",
+            "scope": "GOOGLE",
+            "types": [
+                "city_hall",
+                "local_government_office",
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 905,
+            "vicinity": "53 ter Quai des Grands Augustins, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8524547,
+                    "lng": 2.3472064
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8537948802915,
+                        "lng": 2.348549530291503
+                    },
+                    "southwest": {
+                        "lat": 48.8510969197085,
+                        "lng": 2.345851569708499
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "H\u00f4tel Esmeralda",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106443224837840180239\">Fraz A. Khan</a>"
+                    ],
+                    "photo_reference": "AUGGfZmNFp3pWbqf-tfyCpbjpGdsgUNZza2g40xE7so4El0w10GSAftrSTGeefss5IHM1bsixjOyYAHttSbYqT6nLd3ou9AAXYGqO45aMYoP6mFDjUNmcaGxIvffyW9iAazYoiagoe1cinBPd5rbIV0DACxM8SYy8UWjcww7azrpDY__YXnF",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJO_g_H-Fx5kcRmaabUHA3dT4",
+            "plus_code": {
+                "compound_code": "V82W+XV Paris, France",
+                "global_code": "8FW4V82W+XV"
+            },
+            "rating": 4.2,
+            "reference": "ChIJO_g_H-Fx5kcRmaabUHA3dT4",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 225,
+            "vicinity": "4 Rue Saint-Julien le Pauvre, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8530901,
+                    "lng": 2.3447174
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85444693029149,
+                        "lng": 2.345995380291502
+                    },
+                    "southwest": {
+                        "lat": 48.8517489697085,
+                        "lng": 2.343297419708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Albe Hotel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 768,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117571951379278191466\">Albe Hotel Saint Michel</a>"
+                    ],
+                    "photo_reference": "AUGGfZm74Nhln5NzzbVgYjeXZGbwsNYeiU4poZh0VvGNB3E47BywE_T3K-pbjUV-cIFY6PBGOFBgtS12_Zaa559UMeN57F2E1P26Qo6x7qwmfmBiJgAB-PTbTYhGLR5zzirYN0P3-VXgf1CPViu1b7-3pM6gN3KQFQoOE0DS61YRqH7uJnBq",
+                    "width": 1169
+                }
+            ],
+            "place_id": "ChIJ8R5-hOBx5kcRsCOdfj8GLeY",
+            "plus_code": {
+                "compound_code": "V83V+6V Paris, France",
+                "global_code": "8FW4V83V+6V"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ8R5-hOBx5kcRsCOdfj8GLeY",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 524,
+            "vicinity": "1 Rue de la Harpe, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8532403,
+                    "lng": 2.3457375
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85462458029149,
+                        "lng": 2.347175730291502
+                    },
+                    "southwest": {
+                        "lat": 48.85192661970849,
+                        "lng": 2.344477769708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Les Rives de Notre-Dame Hotel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116242575283063930652\">Michael Scholz</a>"
+                    ],
+                    "photo_reference": "AUGGfZmkgtQLPfXvVeJor1z4IjrE9uTwOWyLyoTGtHCF2Mk2gQtCgdLgIneLdEMs5mDG41h-OsidLWcu7JSypAZ-g-PCOuqfoFsmD1nTOGUkwG6g7ZJ1SXx4xH3VpqIxpZ0aEnR7shyKGYQ7MVC72YmZ7IBfMyYhg72lIkFYcg6aZgjrPWuy",
+                    "width": 6048
+                }
+            ],
+            "place_id": "ChIJl7vs8-Bx5kcRfIQzq_4_XmU",
+            "plus_code": {
+                "compound_code": "V83W+77 Paris, France",
+                "global_code": "8FW4V83W+77"
+            },
+            "rating": 4.6,
+            "reference": "ChIJl7vs8-Bx5kcRfIQzq_4_XmU",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 153,
+            "vicinity": "15 Quai Saint-Michel, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.85184049999999,
+                    "lng": 2.3448082
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85313118029149,
+                        "lng": 2.346159280291502
+                    },
+                    "southwest": {
+                        "lat": 48.8504332197085,
+                        "lng": 2.343461319708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "H\u00f4tel 4 \u00e9toiles Parc Saint-S\u00e9verin Paris 5\u00e8me - Esprit de France",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2362,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107542132357877294567\">H\u00f4tel 4 \u00e9toiles Parc Saint-S\u00e9verin Paris 5\u00e8me - Esprit de France</a>"
+                    ],
+                    "photo_reference": "AUGGfZmfiTreaWQiDJPG6fsy8-80nx-QhrF9MeKX5uLwn1l99FXk7VhZS6OJ9MzDsvx3_P9gcXPKDFQzLo9_LLOH75-VYX3nLflNnNu5Dc-C59DK5ra4UtEmMEVh8Tbhk5NqSPhjoNKw13F394xFShzBfOJxO9CurTksPWrenBc_oj5HFxWk",
+                    "width": 3776
+                }
+            ],
+            "place_id": "ChIJ9--kuuBx5kcRojwQ1yEK2cY",
+            "plus_code": {
+                "compound_code": "V82V+PW Paris, France",
+                "global_code": "8FW4V82V+PW"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ9--kuuBx5kcRojwQ1yEK2cY",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 308,
+            "vicinity": "22 Rue de la Parcheminerie, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8518743,
+                    "lng": 2.3463436
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85326128029151,
+                        "lng": 2.347604680291502
+                    },
+                    "southwest": {
+                        "lat": 48.85056331970851,
+                        "lng": 2.344906719708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Hotel Henri IV Rive Gauche",
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117561863517287206024\">Muzafar Husain</a>"
+                    ],
+                    "photo_reference": "AUGGfZnj7RIfjJmw9CMx5iZnngRMUY1Qnt5zCfbo4Zr42u6Dqzf75c3chtGdGN7ndzFsFzlB82fhyxnwMTBnV-FIQWeuvgkbH-aFt4QGPj8M9qqE5Kk4KXURl8yX7uzwrL7AU4oUxWDtFD_k6VoPZCMDcmi0_MxaGXXs0h1QR51c-CvosIO5",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJ2a4f2-Bx5kcR40Wl3uv_53Y",
+            "plus_code": {
+                "compound_code": "V82W+PG Paris, France",
+                "global_code": "8FW4V82W+PG"
+            },
+            "rating": 4.5,
+            "reference": "ChIJ2a4f2-Bx5kcR40Wl3uv_53Y",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 227,
+            "vicinity": "13 Rue Saint-Jacques, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8600866,
+                    "lng": 2.3533543
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.86148808029149,
+                        "lng": 2.354740780291502
+                    },
+                    "southwest": {
+                        "lat": 48.85879011970849,
+                        "lng": 2.352042819708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "H\u00f4tel Beaubourg",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4765,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115421447635584539926\">H\u00f4tel Beaubourg</a>"
+                    ],
+                    "photo_reference": "AUGGfZlXCuSMe-obG2XNKTJWqv6WsdoI8c54cGB5zGlRsVUEHzJ_OXvOQRrWRZ-36vFAnRrPIFTeIJPW_rg17lHLUIYcGecSzdqg7C8XZYYBbF-iQjrFj81gU-CH1Zyh8zwCYj5EJ721KE0ZQQBG298Z55xNS_8o0HSaarjiMoKs6kbVkt_w",
+                    "width": 4473
+                }
+            ],
+            "place_id": "ChIJCdHKjhxu5kcR0YtyGr7Vftc",
+            "plus_code": {
+                "compound_code": "V963+28 Paris, France",
+                "global_code": "8FW4V963+28"
+            },
+            "rating": 4.2,
+            "reference": "ChIJCdHKjhxu5kcR0YtyGr7Vftc",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 216,
+            "vicinity": "11 Rue Simon le Franc, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.859876,
+                    "lng": 2.347049
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8610872802915,
+                        "lng": 2.348425880291502
+                    },
+                    "southwest": {
+                        "lat": 48.8583893197085,
+                        "lng": 2.345727919708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "H\u00f4tel Des Ducs D'Anjou",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1400,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115209143941459061727\">H\u00f4tel Des Ducs D&#39;Anjou</a>"
+                    ],
+                    "photo_reference": "AUGGfZkQLvuZxWYvPxR5K0YyZB0sRlAtuHZQp4x7XINnTFt5vKhLlWOfsQg2hH1RB3J7SThkGT_eSTpzxcnpeFpng-sHyjPPeMZWmVewzIITVieculg0ezul4KC7iz26FRjTbSZ4UhUwqlPkKDdZexsEyrTzoILNqwYGwAYGo47c_p9ab0OV",
+                    "width": 1352
+                }
+            ],
+            "place_id": "ChIJ9ekWGR9u5kcRsS8j5TnWeSE",
+            "plus_code": {
+                "compound_code": "V85W+XR Paris, France",
+                "global_code": "8FW4V85W+XR"
+            },
+            "rating": 3.9,
+            "reference": "ChIJ9ekWGR9u5kcRsS8j5TnWeSE",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 429,
+            "vicinity": "1 Rue Sainte-Opportune, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8515237,
+                    "lng": 2.3486679
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85293023029149,
+                        "lng": 2.349966430291502
+                    },
+                    "southwest": {
+                        "lat": 48.8502322697085,
+                        "lng": 2.347268469708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Maison Colbert Meli\u00e1 Collection",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3543,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102194778927204133336\">Maison Colbert Meli\u00e1 Collection</a>"
+                    ],
+                    "photo_reference": "AUGGfZkvJ733esd1JVRFYB53wwI9H8gCknt0O3yrmAbr6_Dv1gKnKw9LYl828L_7WdxH6fld2WnqbCq94VkcKRG_Fjg6w3yEUFyQWrOFTJnemTBJa2zDeAxgGYeGwPL5yKh-VTjA6YA7WdZ-Y2PAsLAgPZ2Mb5UCVFCjnAjRuofZQV1fXLmq",
+                    "width": 2362
+                }
+            ],
+            "place_id": "ChIJI3vbSOFx5kcR84E4IeL2LqI",
+            "plus_code": {
+                "compound_code": "V82X+JF Paris, France",
+                "global_code": "8FW4V82X+JF"
+            },
+            "rating": 4.8,
+            "reference": "ChIJI3vbSOFx5kcR84E4IeL2LqI",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 106,
+            "vicinity": "7 Rue de l'H\u00f4tel Colbert, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.84994750000001,
+                    "lng": 2.3462473
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85132793029149,
+                        "lng": 2.347622330291502
+                    },
+                    "southwest": {
+                        "lat": 48.84862996970849,
+                        "lng": 2.344924369708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Home Latin",
+            "photos": [
+                {
+                    "height": 2362,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100978952201168525219\">Home Latin</a>"
+                    ],
+                    "photo_reference": "AUGGfZmmP0qJcszLfhrBQbddph22P1rQmaLZDbtuivMzmAmCZGWTXRkKZHUqJJijPMchBmzmL4NeQIVDv6F77VM95gl8ZGF-UImehlicidcuWDsJHXl9iR3SBaGb9I9JalHA6kzRd9x9ASzD4OOYWV-B4uNk0QxSjY6AUBULdXT6J9DHhVNg",
+                    "width": 3543
+                }
+            ],
+            "place_id": "ChIJMWNDIudx5kcRupjNdNDYKkw",
+            "plus_code": {
+                "compound_code": "R8XW+XF Paris, France",
+                "global_code": "8FW4R8XW+XF"
+            },
+            "rating": 3.5,
+            "reference": "ChIJMWNDIudx5kcRupjNdNDYKkw",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 554,
+            "vicinity": "15-17 Rue du Sommerard, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8514504,
+                    "lng": 2.3495422
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8527688302915,
+                        "lng": 2.350886580291502
+                    },
+                    "southwest": {
+                        "lat": 48.8500708697085,
+                        "lng": 2.348188619708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Les Degr\u00e9s de Notre Dame",
+            "photos": [
+                {
+                    "height": 1984,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115564994803632359392\">christophe etter</a>"
+                    ],
+                    "photo_reference": "AUGGfZna0tNOKWMCaz720B0RjCR5Hr3Lpo2-46U1ttQMhUw2K2wkd6SucBjByFARUIdN9xoMuityIqaubAKvBR0WDjwK-ZXB6Gsh-lrYqw9YYXODqo0X4qf6GnqDPuOR0y3sOguuf3mqkGVqAfujhS33HRyHAl2dgJvt1F1hcW1cmbfgljtp",
+                    "width": 3968
+                }
+            ],
+            "place_id": "ChIJMyUCVOFx5kcRcLsa7V0Y1m4",
+            "plus_code": {
+                "compound_code": "V82X+HR Paris, France",
+                "global_code": "8FW4V82X+HR"
+            },
+            "rating": 3.9,
+            "reference": "ChIJMyUCVOFx5kcRcLsa7V0Y1m4",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 91,
+            "vicinity": "10 Rue des Grands Degr\u00e9s, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8522168,
+                    "lng": 2.3420691
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8535826302915,
+                        "lng": 2.343484380291502
+                    },
+                    "southwest": {
+                        "lat": 48.8508846697085,
+                        "lng": 2.340786419708499
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "H\u00f4tel Du Lys",
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101281828387417079375\">Dindo Salas</a>"
+                    ],
+                    "photo_reference": "AUGGfZn1dmqSclUlOlB0AWJiu6yky-E9h0NhKYgTCxBxOmCw0mqFR_f6uppidfiODey3WzpBm09uWux4L-yzuSpppaxe7v5eovIqmTkwoNOBplZbgZ2YxocvF0EmQfQaWxnL9UqjYN67KuVYy1Az8L7KKbW2Bl82PRhBiR3epc0gG640hpoE",
+                    "width": 3000
+                }
+            ],
+            "place_id": "ChIJrcnEaN5x5kcRjjOnEG6_HHs",
+            "plus_code": {
+                "compound_code": "V82R+VR Paris, France",
+                "global_code": "8FW4V82R+VR"
+            },
+            "rating": 3.9,
+            "reference": "ChIJrcnEaN5x5kcRjjOnEG6_HHs",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 320,
+            "vicinity": "23 Rue Serpente, Paris"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 48.8607552,
+                    "lng": 2.3426075
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.8621088302915,
+                        "lng": 2.343885780291502
+                    },
+                    "southwest": {
+                        "lat": 48.8594108697085,
+                        "lng": 2.341187819708498
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "L'Empire Paris",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1123,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112201701198428774080\">L&#39;Empire Paris</a>"
+                    ],
+                    "photo_reference": "AUGGfZnemYWLxJXVVZ1NWXhzjk7DD-THSyMWdLwWdWndW3jfHvRPjA8-SMYMGqZH96iFHSrZBbF3GIQAARm5QVm_9q30k8dMo0eU5J7_BCbzzGPU-LCGNCrTlEEsrhP-cv_3GGt1yGvqUBZqoPweZEsK2eAl_pwZyVqrZT4jOOMWLwLTIXUV",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJ0Wj4hCFu5kcRQ67Hb2M6b9Q",
+            "plus_code": {
+                "compound_code": "V86V+82 Paris, France",
+                "global_code": "8FW4V86V+82"
+            },
+            "rating": 4.2,
+            "reference": "ChIJ0Wj4hCFu5kcRQ67Hb2M6b9Q",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 623,
+            "vicinity": "48 Rue de l'Arbre Sec, Paris"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 48.840813,
+                    "lng": 2.3519279
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 48.85408854187627,
+                        "lng": 2.366087687689392
+                    },
+                    "southwest": {
+                        "lat": 48.83680451506546,
+                        "lng": 2.336656899547619
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "5th arrondissement",
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104020412688793118019\">Jacques Le Bourva</a>"
+                    ],
+                    "photo_reference": "AUGGfZnC2yNEFnWuQgo9h3mVaEITz_9QFYCCruGHg6ls13riRGab-zcGm8Y7OhAXJlyPRUUdW7ARF6uwJ6vEBqipmzLcIR6J8UjR1vFU2nbO5pjtAwowj0fJtjzN7tF3AUroJWBE7k-KuyoC5g5F-PVgROEmyu840XNzRpBCgtGxyd7rWBWy",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJb_T3b-9x5kcRkBqUaMOCCwU",
+            "reference": "ChIJb_T3b-9x5kcRkBqUaMOCCwU",
+            "scope": "GOOGLE",
+            "types": [
+                "sublocality_level_1",
+                "sublocality",
+                "political"
+            ],
+            "vicinity": "5th arrondissement"
+        }
+    ],
+    "status": "OK"
+}
