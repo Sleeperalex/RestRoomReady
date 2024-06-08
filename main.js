@@ -1,3 +1,5 @@
+let map;
+
 function initMap() {
     
     var options = {
@@ -9,28 +11,24 @@ function initMap() {
         streetViewControl: false
     };
 
-    var map = new google.maps.Map(document.getElementById('map-canvas'), options);
+    map = new google.maps.Map(document.getElementById('map-canvas'), options);
 }
 
-
 function loadLocations() {
+    initMap();
     // Chargement des données depuis le fichier toilettes.json
-    console.log("Chargement des locations...");
+    console.log("loading locations...");
     fetch('toilettes.json')
         .then(response => response.json())
         .then(data => {
-            data.results.forEach(place => {
-                const pos = { lat: place.geometry.location.lat, lng: place.geometry.location.lng };
+            data.places.forEach(place => {
+                const pos = { lat: place.location.latitude, lng: place.location.longitude };
                 const marker = new google.maps.Marker({
                     position: pos,
-                    map: window.map,
-                    title: place.name
+                    map: map,
+                    title: place.displayName.text  // Assuming the title to use is within 'displayName' -> 'text'
                 });
             });
         })
-        .catch(error => console.error('Erreur lors du chargement des données:', error));
+        .catch(error => console.error('Erreur loading the data:', error));
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('showToilets').addEventListener('click', loadLocations);
-});

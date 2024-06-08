@@ -12,7 +12,7 @@
     </div>
     <button id="showToilets">
         <span class="button-icon">></span>
-        <span class="button-text">Afficher les toilettes à proximité</span>
+        <span class="button-text">Afficher les toilettes</span>
     </button>
 
 
@@ -34,6 +34,13 @@
                 }
             })
             .catch(error => console.error('Error loading the config:', error));
+
+            document.addEventListener('DOMContentLoaded', function() {
+    var button = document.getElementById('showToilets');
+    button.addEventListener('click', function() {
+        loadLocations(); // Charge les marqueurs sur la carte déjà initialisée
+    });
+});
     </script>
 
     <div class="green-box-left"></div>
