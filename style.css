@@ -107,7 +107,6 @@ button {
     left: calc(50% - 170px); /* Ajustez cette valeur pour centrer la flèche correctement */
     height: 30px;
     width: 40px; /* Assurez-vous que cette largeur est juste suffisante pour la flèche */
-    padding: 10px 10px; /* Réduisez le padding pour qu'il corresponde à la taille réduite */
     font-size: 16px;
     color: rgb(241, 228, 228);
     background-color: #4CAF50; /* Vert */
@@ -119,15 +118,13 @@ button {
 }
 
 button:hover {
-    position: absolute;
-    width: 240px; /* Taille élargie pour accommoder le texte au survol */
+    width: 175px; /* Taille élargie pour accommoder le texte au survol */
     height: 50px;
     background-color: #45a049;
     z-index: 999;
 }
 
 .button-text {
-    position: absolute;
     display: block;
     opacity: 0;
     transition: opacity 0.5s ease 0.5s; /* Délai pour l'apparition du texte */
