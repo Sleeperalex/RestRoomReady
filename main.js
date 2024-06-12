@@ -117,6 +117,28 @@ function initMap() {
     };
 
     map = new google.maps.Map(document.getElementById('map-canvas'), options);
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            
+            // Center the map on the user's location
+            map.setCenter({ lat: latitude, lng: longitude });
+
+            // Create a marker for the user's location
+            new google.maps.Marker({
+                position: { lat: latitude, lng: longitude },
+                map: map,
+                title: 'Your Location',
+                icon: 'loc.png'
+            });
+        }, (error) => {
+            console.error(`Error getting location: ${error.message}`);
+        });
+    } else {
+        console.error('Geolocation is not supported by this browser');
+    }
 }
 
 function loadLocations() {
@@ -131,8 +153,36 @@ function loadLocations() {
                 const marker = new google.maps.Marker({
                     position: pos,
                     map: map,
-                    title: place.displayName.text  // Assuming the title to use is within 'displayName' -> 'text'
+                    animation: google.maps.Animation.DROP // Add animation
                 });
+
+                // Add click event listener to the marker
+                let isAnimating = false;
+                marker.addListener('click', () => {
+                    if (isAnimating) {
+                        marker.setAnimation(null);
+                        isAnimating = false;
+                    } else {
+                        marker.setAnimation(google.maps.Animation.BOUNCE);
+                        isAnimating = true;
+                    }
+                });
+
+                // add window info
+                let infoWindow = new google.maps.InfoWindow({
+                    content: place.formattedAddress
+                });
+                let isInfoWindowOpen = false;
+                marker.addListener('click', () => {
+                    if (isInfoWindowOpen) {
+                        infoWindow.close();
+                        isInfoWindowOpen = false;
+                    } else {
+                        infoWindow.open(map, marker);
+                        isInfoWindowOpen = true;
+                    }
+                });
+                
             });
         })
         .catch(error => console.error('Erreur loading the data:', error));
