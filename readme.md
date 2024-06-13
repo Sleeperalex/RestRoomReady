@@ -28,7 +28,7 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 ### Si vous avez une clé API
 
 1. Si vous disposez d'une clé API, créez un fichier `apikey.txt` dans le dossier du projet et mettez votre clé API.
-2. Modifiez le fichier `config.json` et mettez `true` pour le paramètre "api".
+2. Modifiez le fichier `config.json` et mettez `true` pour le paramètre "api_map".
 
 ### Fonctionnement
 1. Allez dans le dossier du projet.
@@ -36,10 +36,10 @@ Pour utiliser Rest Room Ready, il suffit d'ouvrir l'application web dans votre n
 ```bash
   cd .\RestRoomReady\
   ```
-2. créer un server http en local sur votre machine
+2. lancer le serveur
 
 ```bash
-  python -m http.server
+  python server.py
   ```
 ouvrez une page web et aller sur http://localhost:8000
 

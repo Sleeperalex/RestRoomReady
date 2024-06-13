@@ -101,7 +101,7 @@ header {
     z-index: 994; /* Ensure the green box is behind the white bar */
 }
 
-button {
+.buttonshow {
     position:absolute;
     top: 400px;
     left: calc(50% - 170px); /* Ajustez cette valeur pour centrer la flèche correctement */
@@ -117,7 +117,7 @@ button {
     z-index: 999;
 }
 
-button:hover {
+.buttonshow:hover {
     width: 175px; /* Taille élargie pour accommoder le texte au survol */
     height: 50px;
     background-color: #45a049;
@@ -135,10 +135,10 @@ button:hover {
     transition: opacity 0.5s ease; /* Transition pour la disparition de la flèche */
 }
 
-button:hover .button-text {
+.buttonshow:hover .button-text {
     opacity: 1;
 }
 
-button:hover .button-icon {
+.buttonshow:hover .button-icon {
     opacity: 0; /* Flèche disparaît au survol */
 }

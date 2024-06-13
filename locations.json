@@ -1,0 +1,14 @@
+{
+    "locations": [
+        {
+            "user_id": "user1",
+            "latitude": 48.7882752,
+            "longitude": 2.2806528
+        },
+        {
+            "user_id": "alexandre",
+            "latitude": 48.7882752,
+            "longitude": 2.2806528
+        }
+    ]
+}

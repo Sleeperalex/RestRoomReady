@@ -3,7 +3,6 @@ let map;
 function initMap() {
     
     var options = {
-        center: { lat: 48.8589384 ,lng: 2.366341 },
         zoom: 12,
         disableDefaultUI: true,
         mapTypeControl: false,
@@ -122,6 +121,21 @@ function initMap() {
         navigator.geolocation.getCurrentPosition((position) => {
             const latitude = position.coords.latitude;
             const longitude = position.coords.longitude;
+
+            fetch('/save-location', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    user_id: "alexandre",
+                    latitude: position.coords.latitude,
+                    longitude: position.coords.longitude
+                })
+            })
+            .then(response => response.json())
+            .then(data => console.log("Server response:", data))
+            .catch(error => console.error("Failed to send location data:", error));
             
             // Center the map on the user's location
             map.setCenter({ lat: latitude, lng: longitude });
@@ -141,11 +155,74 @@ function initMap() {
     }
 }
 
+
+let globalPlacesData = [];
+
+function loadInitialData() {
+    fetch('database.json') // Remplacez par l'URL correcte de votre API
+        .then(response => response.json())
+        .then(data => {
+            globalPlacesData = data.places;
+            console.log("Data loaded:", globalPlacesData);
+        })
+        .catch(error => console.error('Failed to load data:', error));
+}
+
+
+
+function saveRating(placeId) {
+    loadInitialData();
+    let ratingValue = document.getElementById(`rating-${placeId}`).value;  // Récupérer la note depuis l'élément DOM
+    fetch('/data') // Assurez-vous que cette route renvoie la structure actuelle du fichier JSON
+        .then(response => response.json())
+        .then(data => {
+            let places = data.places;
+            let found = false;
+
+            // Recherche du lieu dans le tableau
+            for (let i = 0; i < places.length; i++) {
+                if (places[i].id === placeId) {
+                    if (!places[i].ratings) {
+                        places[i].ratings = []; // Assurez-vous que l'array de ratings existe
+                    }
+                    places[i].ratings.push(parseInt(ratingValue)); // Ajoute la nouvelle note
+                    found = true;
+                    break;
+                }
+            }
+
+            // Si le lieu n'est pas trouvé, ajoutez un nouvel objet lieu
+            if (!found) {
+                places.push({ id: placeId, ratings: [parseInt(ratingValue)] });
+            }
+
+            // Envoyer les données mises à jour au serveur
+            return fetch('/save', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ places: places })
+            });
+        })
+        .then(response => response.text()) // ou response.json() si votre serveur renvoie du JSON
+        .then(data => console.log("Server responded with:", data))
+        .catch(error => console.error('Failed to save data:', error));
+}
+
+
+function calculateAverageRating(ratings) {
+    if (ratings.length === 0) return 0; // Éviter la division par zéro
+    const total = ratings.reduce((acc, curr) => acc + curr, 0);
+    return (total / ratings.length).toFixed(1); // Retourner la moyenne avec une décimale
+}
+
+
 function loadLocations() {
     initMap();
-    // Chargement des données depuis le fichier toilettes.json
+    // Chargement des données depuis le fichier data.json
     console.log("loading locations...");
-    fetch('toilettes.json')
+    fetch('data.json')
         .then(response => response.json())
         .then(data => {
             data.places.forEach(place => {
@@ -156,32 +233,47 @@ function loadLocations() {
                     animation: google.maps.Animation.DROP // Add animation
                 });
 
-                // Add click event listener to the marker
-                let isAnimating = false;
-                marker.addListener('click', () => {
-                    if (isAnimating) {
-                        marker.setAnimation(null);
-                        isAnimating = false;
-                    } else {
-                        marker.setAnimation(google.maps.Animation.BOUNCE);
-                        isAnimating = true;
-                    }
-                });
 
-                // add window info
-                let infoWindow = new google.maps.InfoWindow({
-                    content: place.formattedAddress
-                });
-                let isInfoWindowOpen = false;
-                marker.addListener('click', () => {
-                    if (isInfoWindowOpen) {
-                        infoWindow.close();
-                        isInfoWindowOpen = false;
-                    } else {
-                        infoWindow.open(map, marker);
-                        isInfoWindowOpen = true;
-                    }
-                });
+                // Récupérer les ratings depuis database.json
+                fetch('database.json')
+                    .then(response => response.json())
+                    .then(dbData => {
+                        const placeData = dbData.places.find(p => p.id === place.id);
+                        const ratings = placeData ? placeData.ratings : [];
+                        const averageRating = calculateAverageRating(ratings);
+
+                        // Initialize rating
+                        let ratingHTML = `<select id='rating-${place.id}'>
+                            <option value='1'>1</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5</option>
+                        </select>`;
+
+                        let saveButtonHTML = `<button onclick='saveRating("${place.id}")'>Save Rating</button>`;
+
+                        let infoContent = `${place.formattedAddress}<br>Average Rating: ${averageRating}<br>${ratingHTML}<br>${saveButtonHTML}`;
+
+                        let infoWindow = new google.maps.InfoWindow({
+                            content: infoContent
+                        });
+
+
+                        let isInfoWindowOpen = false;
+                        marker.addListener('click', () => {
+                            if (isInfoWindowOpen) {
+                                marker.setAnimation(null);
+                                infoWindow.close();
+                                isInfoWindowOpen = false;
+                            } else {
+                                infoWindow.open(map, marker);
+                                isInfoWindowOpen = true;
+                            }
+                        });
+
+                    })
+                    .catch(error => console.error('Failed to load data:', error));
                 
             });
         })
