@@ -1,4 +1,7 @@
 let map;
+let directionsService;
+let directionsRenderer;
+
 
 function initMap() {
     
@@ -115,7 +118,17 @@ function initMap() {
         ]
     };
 
+
+
     map = new google.maps.Map(document.getElementById('map-canvas'), options);
+
+    directionsService = new google.maps.DirectionsService();
+    directionsRenderer = new google.maps.DirectionsRenderer({
+        map: map,
+        suppressMarkers: true  // This will suppress the default markers
+    });
+
+    directionsRenderer.setMap(map);
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition((position) => {
@@ -217,6 +230,23 @@ function calculateAverageRating(ratings) {
     return (total / ratings.length).toFixed(1); // Retourner la moyenne avec une décimale
 }
 
+function displayRoute(startLat, startLng, endLat, endLng) {
+    let start = new google.maps.LatLng(startLat, startLng);
+    let end = new google.maps.LatLng(endLat, endLng);
+
+    directionsService.route({
+        origin: start,
+        destination: end,
+        travelMode: 'WALKING'
+    }, function(response, status) {
+        if (status === 'OK') {
+            directionsRenderer.setDirections(response);
+        } else {
+            window.alert('Directions request failed due to ' + status);
+        }
+    });
+}
+
 
 function loadLocations() {
     initMap();
@@ -260,24 +290,33 @@ function loadLocations() {
 
                         let saveButtonHTML = `<button onclick='saveRating("${place.id}")'>Save Rating</button>`;
 
-                        let infoContent = `${place.formattedAddress}<br>Average Rating: ${averageRating}<br>${ratingHTML}<br>${saveButtonHTML}<br>${open}`;
+                        
+                        navigator.geolocation.getCurrentPosition((position) => {
+                                const latitude = position.coords.latitude;
+                                const longitude = position.coords.longitude;
+                        
 
-                        let infoWindow = new google.maps.InfoWindow({
-                            content: infoContent
-                        });
+                                let infoContent = `${place.formattedAddress}<br>Average Rating: ${averageRating}<br>${ratingHTML}&nbsp${saveButtonHTML}<br>${open}<br>
+        <button onclick='displayRoute(${latitude}, ${longitude}, ${place.location.latitude}, ${place.location.longitude})'>Show Route</button>`;
+
+                                let infoWindow = new google.maps.InfoWindow({
+                                    content: infoContent
+                                });
 
 
-                        let isInfoWindowOpen = false;
-                        marker.addListener('click', () => {
-                            if (isInfoWindowOpen) {
-                                marker.setAnimation(null);
-                                infoWindow.close();
-                                isInfoWindowOpen = false;
-                            } else {
-                                infoWindow.open(map, marker);
-                                isInfoWindowOpen = true;
-                            }
-                        });
+
+                                let isInfoWindowOpen = false;
+                                marker.addListener('click', () => {
+                                    if (isInfoWindowOpen) {
+                                        infoWindow.close();
+                                        isInfoWindowOpen = false;
+                                    } else {
+                                        infoWindow.open(map, marker);
+                                        isInfoWindowOpen = true;
+                                    }
+                                });
+
+                            });
 
                     })
                     .catch(error => console.error('Failed to load data:', error));
