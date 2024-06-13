@@ -2,3 +2,6 @@ apikey.txt
 test.py
 /__pycache__/
 /temp/
+database.json
+data.json
+locations.json
