@@ -251,9 +251,16 @@ function loadLocations() {
                             <option value='5'>5</option>
                         </select>`;
 
+                        let open = "Closed";
+                        if (place.currentOpeningHours && place.currentOpeningHours.openNow) {
+                          open = "Open Now";
+                        } else if (place.regularOpeningHours && place.regularOpeningHours.openNow) {
+                          open = "Open Now";
+                        }
+
                         let saveButtonHTML = `<button onclick='saveRating("${place.id}")'>Save Rating</button>`;
 
-                        let infoContent = `${place.formattedAddress}<br>Average Rating: ${averageRating}<br>${ratingHTML}<br>${saveButtonHTML}`;
+                        let infoContent = `${place.formattedAddress}<br>Average Rating: ${averageRating}<br>${ratingHTML}<br>${saveButtonHTML}<br>${open}`;
 
                         let infoWindow = new google.maps.InfoWindow({
                             content: infoContent
